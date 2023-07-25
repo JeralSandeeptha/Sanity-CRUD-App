@@ -1,0 +1,41 @@
+.about{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: calc(100vh - 80px);
+    background-image: url('https://media.istockphoto.com/id/912928218/photo/business-man-in-limousine-with-glass-of-champagne.jpg?s=612x612&w=0&k=20&c=TAIhFWvsWmbJgm-dWummXXjn0Pp0QE7pk2GgIktakhY=');
+    background-size: cover;
+
+    .about-inner{
+        min-height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .profile-container{
+            display: flex;
+            align-items: center;
+            max-width: 1000px;
+            width: 1000px;
+            padding: 20px;
+            background-color: rgb(37, 138, 37);
+
+            img{
+
+            }
+
+            .right{
+                flex: 1;
+                text-align: center;
+
+                h1{
+
+                }
+
+                h4{
+
+                }
+            }
+        }
+    }
+}

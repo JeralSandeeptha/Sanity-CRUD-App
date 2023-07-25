@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  min-height: 80px;
+  background-color: rgb(165, 64, 64);
+}
+.navbar .nav-inner {
+  max-width: 1200px;
+  min-height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.navbar .nav-inner .nav-link {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 20px 30px;
+}
+.navbar .nav-inner .nav-link:hover {
+  background-color: rgb(122, 31, 31);
+}
+.navbar .nav-inner .nav-link-logo {
+  font-size: 35px;
+  color: white;
+  margin-right: 50px;
+  font-weight: bolder;
+}/*# sourceMappingURL=Navbar.css.map */

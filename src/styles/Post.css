@@ -1,0 +1,43 @@
+.blog {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: rgb(206, 219, 169);
+}
+.blog .blog-inner {
+  padding-top: 50px;
+  max-width: 1200px;
+  min-height: calc(100vh - 80px);
+  margin: 0 auto;
+}
+.blog .blog-inner .header {
+  text-align: center;
+}
+.blog .blog-inner .sub-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blog .blog-inner .posts {
+  background-color: rgb(206, 219, 169);
+  display: grid;
+  height: 100%;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.blog .blog-inner .posts .post {
+  max-width: 300px;
+  position: relative;
+}
+.blog .blog-inner .posts .post img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 300px;
+}
+.blog .blog-inner .posts .post .title {
+  position: absolute;
+  color: black;
+  bottom: 10px;
+  right: 10px;
+}/*# sourceMappingURL=Post.css.map */
